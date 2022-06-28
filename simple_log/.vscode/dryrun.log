@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/yxg/文档/log_system/log_system/simple_log'
+g++    -c -o main.o main.cpp
+g++    -c -o logger.o logger.cpp
+gcc -o test main.o logger.o
+make: Leaving directory '/home/yxg/文档/log_system/log_system/simple_log'
+ 
